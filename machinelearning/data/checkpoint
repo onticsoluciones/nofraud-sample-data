@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/alex/Projects/nofraud/mlplugin/data/model.ckpt"
+all_model_checkpoint_paths: "/Users/alex/Projects/nofraud/mlplugin/data/model.ckpt"
