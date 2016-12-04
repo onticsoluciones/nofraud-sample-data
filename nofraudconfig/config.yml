@@ -1,0 +1,13 @@
+plugins:
+  - code: geo_location
+    config:
+       file: data/geoip.sqlite
+  - code: sample_ip_blacklist
+  - code: stolen_cc_checker
+    authoritative: true
+    config:
+      file: data/stolen_cc_database.txt
+  - code: ecommerce_machine_learning
+    config:
+      executable: /var/www/mlplugin/ml.py
+
